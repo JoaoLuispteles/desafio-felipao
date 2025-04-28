@@ -1,20 +1,23 @@
 let nome = "João";
 let xp = 1000;
+let nivel
 
 if (xp <= 1000) {
-    console.log("Ferro");
+    nivel = "FERRO"
 }else if (xp > 1001 && xp <= 2000) {
-    console.log("Bronze");
+    nivel = "BRONZE"
 }else if (xp > 2001 && xp <= 5000) {
-    console.log("Prata");
+    nivel = "PRATA"
 }else if (xp > 5001 && xp <= 7000) {
-    console.log("Ouro");
+    nivel = "OURO"
 }else if (xp > 7001 && xp <= 8000) {
-    console.log("Platina");
+    nivel = "PLATINA"
 }else if (xp > 8001 && xp <= 9000) {
-    console.log("Ascendente");
+    nivel = "ASCENDENTE"
 }else if (xp > 9001 && xp <= 10000) {
-    console.log("Imortal");
+    nivel = "IMORTAL"
 }else{
-    console.log("Radiante");
+    nivel = "RADIANTE"
 }
+
+console.log ("O Herói de nome " + nome + " está no nível de " + nivel);
